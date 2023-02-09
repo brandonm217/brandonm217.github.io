@@ -9,18 +9,48 @@
 </head>
 
 <body>
-  <h1>Dynamic Gallery</h1>
-  <p>Resize the browser window to change the images</p>
-  <h1>Animals</h1>
+  <header>
+    <h1>Dynamic Gallery</h1>
+    <p>Resize the browser window to change the images</p>
+  </header>
 
-  <picture>
-    <source media="(min-width:321px)" srcset="/images/animal1.jpeg" height="200" width="200">
-    <source media="(min-width:426px)" srcset="/images/animal2.jpg" height="200" width="200">
-     <source media="(min-width:426px)" srcset="/images/animal2.jpg" height="200" width="200">
-    <img src="/images/animal3.jpeg" alt="Animal" height="200" width="200">
-  </picture>
+  <main>
+    <hr class="solid">
+    <h1>Animals</h1>
 
-  
+    <picture>
+      <source media="(max-width:321px)" srcset="/images/animal1.jpeg" height="200" width="200">
+      <source media="(max-width:426px)" srcset="/images/animal2.jpg" height="200" width="200">
+      <source media="(max-width:769px)" srcset="/images/animal3.jpeg" height="200" width="200">
+      <img src="/images/animal4.webp" alt="Animal" height="200" width="200">
+    </picture>
+
+    <hr class="solid">
+    <h2>Foods</h2>
+
+    <picture>
+      <source media="(max-width:321px)" srcset="/images/food1.jpeg" height="200" width="200">
+      <source media="(max-width:426px)" srcset="/images/food2.jpeg" height="200" width="200">
+      <source media="(max-width:769px)" srcset="/images/food3.jpeg" height="200" width="200">
+      <img src="/images/food4.jpeg" alt="foods" height="200" width="200">
+    </picture>
+
+    <hr class="solid">
+    <h2>Forms of Money</h2>
+
+    <picture>
+      <source media="(max-width:321px)" srcset="/images/money1.jpeg" height="200" width="200">
+      <source media="(max-width:426px)" srcset="/images/money2.jpeg" height="200" width="200">
+      <source media="(max-width:769px)" srcset="/images/money3.jpeg" height="200" width="200">
+      <img src="/images/money4.jpeg" alt="foods" height="200" width="200">
+    </picture>
+    <hr class="solid">
+  </main>
+
+  <footer>
+    <i>&copy; 2023 Brandon Mayer</i>
+  </footer>
+
 </body>
 
 </html>
