@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Brandon's Image Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Dynamic Gallery</h1>
+  <p>Resize the browser window to change the images</p>
+  <h1>Animals</h1>
+
+  <picture>
+    <source media="(min-width:321px)" srcset="/images/animal1.jpeg" height="200" width="200">
+    <source media="(min-width:426px)" srcset="/images/animal2.jpg" height="200" width="200">
+     <source media="(min-width:426px)" srcset="/images/animal2.jpg" height="200" width="200">
+    <img src="/images/animal3.jpeg" alt="Animal" height="200" width="200">
+  </picture>
+
+  
+</body>
+
+</html>
