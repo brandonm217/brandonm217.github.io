@@ -1,0 +1,57 @@
+.man {
+  height: 300px;
+  border-radius: 50%;
+  
+  padding: 25px;
+}
+
+
+main {
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-image: url(space.jpg);
+  background-position: top left;
+  width:1155px;
+  height:650px;
+  background-repeat: repeat;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#moon {
+  list-style-image: url('star.png');
+}
+
+
+
+#borderimg1 {
+  background-color: black;
+  border: 20px solid transparent;
+
+  border-image: url('neon.jpg') round;
+  border-image-slice: 25 fill;
+  border-image-width:10px 10px 10px 10px;
+  border-image-outset:0px 0px 0px 30px;
+}
+
+#borderimg2 {
+  background-color: black;
+  border: 2px solid transparent;
+
+  border-image: url('neon.jpg') 50 round;
+  border-image-slice: 30 fill;
+  border-image-width:40px 0px 40px 0px;
+  border-image-outset:30px 0px 30px 0px;
+}
+
+#home a{
+  font-size: 15px;
+  color: yellow;
+}
