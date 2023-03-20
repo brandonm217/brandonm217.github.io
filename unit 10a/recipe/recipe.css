@@ -1,0 +1,15 @@
+#recipe, td, th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: #c0aa30;
+}
+#bread {
+  display: block;
+  margin: 0 auto;
+}
+body{
+  background-color: maroon;
+}
+a{
+  color: gold;
+}
