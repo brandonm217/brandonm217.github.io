@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+   #1 {
+      border-collapse: collapse;
+      width: 100%;
+     margin: auto;
+    }
+
+    th, td {
+      text-align: center;
+      padding: 8px;
+      border: 2px solid black;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
